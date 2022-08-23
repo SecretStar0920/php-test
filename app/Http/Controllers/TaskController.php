@@ -38,7 +38,7 @@ class TaskController extends Controller
             'title' => $request ->input('title')
         ]);
 
-        return redirect('task_list');
+        return redirect('/');
     }
 
     /**
