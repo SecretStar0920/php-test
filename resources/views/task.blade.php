@@ -23,14 +23,12 @@
                     @if(!$task->isEmpty())
                     <div class="task-list">
                         <div class="task-form">
+                            @for ($i = 0; $i < count($task); $i++)
                             <div class="task-select">
                                 <input class="task-radio mr-2" type="radio" id="html" name="fav_language" value="HTML">
                                 <label class="task-title" for="html">Task1</label><br>                        
-                            </div>                                                        
-                            <div class="task-select">
-                                <input class="task-radio mr-2" type="radio" id="html" name="fav_language" value="HTML">
-                                <label class="task-title" for="html">Task2</label><br>                        
-                            </div>                                                                                
+                            </div>                                                                                                                                         
+                            @endfor                            
                         </div>                                                  
                     </div>
                     <div class="display-mode">
