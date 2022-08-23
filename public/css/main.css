@@ -1,0 +1,89 @@
+.layout {
+    background-color: rgba(238, 247, 247, 0.795);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.todo-label {
+    color: rgb(170, 120, 120);
+    font-size: 50px;
+}
+.task-input {
+    width: 400px; 
+    height: 50px;    
+    border: 0;
+    padding: 5px;
+    padding-inline: 50px;
+    font-size: 20px;
+    font-style: italic;
+    border-bottom: 1px solid #afb5b5;    
+}
+
+.task-form-div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+.task-list {
+    display: flex;
+    justify-content: left;
+}
+
+.task-radio {
+    height: 20px; 
+    width: 20px;
+}
+
+.task-form {
+    font-size: 20px;
+    height: auto;
+}
+.task-select {    
+    padding-block: 10px;
+    border-bottom: 1px solid #afb5b5;
+    width: 400px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: white;    
+}
+
+.status-btns {
+    display: flex;
+}
+
+.display-mode {
+    display: flex;
+    justify-content: flex-start;    
+    width: 100%;
+    background-color: white;
+}
+
+.item-text {
+    width: 30%;
+    padding-block: 10px;
+}
+
+.status-btns {
+    width: 70%;
+    padding-block: 10px;
+}
+
+.mr-2 {
+    margin-right: 12px;    
+}
+
+.status {
+    border: 0;    
+    padding-inline: 10px;
+    padding-block: 3px;
+    background-color: white;
+}
+
+.active {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
