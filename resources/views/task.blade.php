@@ -26,13 +26,13 @@
                             @for ($i = 0; $i < count($task); $i++)
                             <div class="task-select">
                                 <input class="task-radio mr-2" type="radio" id="html" name="fav_language" value="HTML">
-                                <label class="task-title" for="html">Task1</label><br>                        
+                                <label class="task-title" for="html">{{ $task[$i]->title }}</label><br>                        
                             </div>                                                                                                                                         
                             @endfor                            
                         </div>                                                  
                     </div>
                     <div class="display-mode">
-                        <div class="item-text">1 item left</div>
+                        <div class="item-text">{{ count($task) }} item left</div>
                         <div class="status-btns">
                             <button class="status active mr-2">All</button>
                             <button class="status mr-2">Active</button>
